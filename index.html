@@ -26,6 +26,13 @@
             <li class="nav-item active">
                 <input type="email" class="form-control" id="email" placeholder="Enter email">
             </li>
+            <form action= "index.html" >
+                <label for="fname" style="color: cornsilk;">Email:</label>
+                <input type="text" style="color: darkblue;" placeholder="Enter email" id="email" name="email" required>
+                <label for="lname" style="color: cornsilk;">Last name:</label>
+                <input type="text" style="color: darkblue;" placeholder="Last name" id="lname" name="lname" required>
+                <input type="submit" value="Subscribe" onclick="newSubscriber()">
+              </form>
         </ul>
     </div>
 </nav>
@@ -122,12 +129,6 @@
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="app.js"></script>
-
-<audio controls>
-    <source src="/Users/hamiltonsheppard/Desktop/MicroservicesPt2/microservice-frontend/free short dark music 001.mp3" type="audio/ogg"> // user implemented feature
-    <source src="/Users/hamiltonsheppard/Desktop/MicroservicesPt2/microservice-frontend/free short dark music 001.mp3" type="audio/mpeg"> // user implemented feature
-  </audio>
-  <p>Click the play button</p>
 
 </body>
 </html>
